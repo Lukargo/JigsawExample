@@ -67,6 +67,17 @@ img
 	max-width: 100%;
 }
 
+.imgInline
+{
+	text-align: left;
+}
+
+.imgInline img
+{
+	display: inline-block;
+	padding-right: 8px;
+}
+
 #pentagon
 {
 	display: inline-block;
