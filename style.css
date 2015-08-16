@@ -1,0 +1,161 @@
+body
+{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.wd70
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.upper50
+{
+	margin-top: 50px;
+}
+
+.lower50
+{
+	margin-bottom: 50px;
+}
+
+.lower100
+{
+	margin-bottom: 100px;
+}
+
+.lower130
+{
+	margin-bottom: 130px;
+}
+
+#heroBackground
+{
+	background-color: black;
+	height: 760px;
+	width: 100%;
+	color: white;
+	background-image: url(backgroundImage.png);
+	display: table;
+	box-sizing: border-box;
+}
+
+#heroBackground h1
+{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 72px;
+	margin-bottom: 0px;
+}
+
+#heroBackground h2
+{
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+
+#heroBackground p
+{
+	margin-top: 0px;
+}
+
+img
+{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+#pentagon
+{
+	display: inline-block;
+}
+
+#tableVerticalAlign
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.redCenter
+{
+	text-align: center;
+	background-color: #ff5959;
+	color: white;
+}
+
+.grayCenter
+{
+	text-align: center;
+	background-color: #e8e8e8;
+}
+
+.filledButton
+{
+	background-color: #ff5959;
+	color: white;
+	padding: 10px 40px;
+	margin-top: 30px;
+	border-radius: 10px;
+	border: 2px solid #ff5959;
+	display: inline-block;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+}
+
+.borderButton
+{
+	color: white;
+	padding: 10px 40px;
+	margin-top: 30px;
+	border: 2px solid #ff5959;
+	border-radius: 10px;
+	display: inline-block;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+}
+
+.filledButton:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: transparent;
+}
+
+.redText
+{
+	color: #ff5959;
+}
+
+.borderButton:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: #ff5959;
+}
+
+@media (max-width: 992px)
+{
+	.centerMobile
+	{
+		text-align: center;
+	}
+}
+
+/*#servicesArea
+{
+	text-align: center;
+	background-color: #e8e8e8;
+}
+
+#portfolioArea
+{
+	text-align: center;
+	background-color: #ff5959;
+}
+
+#teamArea
+{
+	background-color: #e8e8e8;
+}*/
