@@ -356,6 +356,7 @@ img
   background-image: url(img-here.png);
   background-position: center center;
   opacity: 0.2;
+  filter: alpha(opacity=20);
   top: 0;
   left: 0;
   bottom: 0;
