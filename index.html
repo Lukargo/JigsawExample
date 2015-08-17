@@ -21,8 +21,9 @@
     <![endif]-->
   </head>
   <body>
+
   <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
+      <div class="container tableVerticalAlign">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -30,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img id="pentagon" src="icon.png">Projex</img><br/>One Page Business Theme</a>
+          <a class="navbar-brand" href="#"><img id="pentagon" src="icon.png"><h1><span class="weightLoss">Pro</span>Jex</h1><h2>One Page Business Theme</h2></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 <!--           <ul class="nav navbar-nav">
@@ -40,19 +41,26 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+              Strategy, Design, Development, Analysis
+                <li><a href="#">Strategy</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Development/a></li>
+                <li><a href="#">Analysis/a></li>
               </ul>
             </li>
           </ul> -->
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Services</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <!-- <li><a href="#">Services<span class="caret"></span></a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Strategy</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Analysis</a></li>
+              </ul>
+            </li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Our Team</a></li>
             <li><a href="#">Blog</a></li>
@@ -62,7 +70,7 @@
       </div>
     </nav>
     <div id="heroBackground">
-      <div id="tableVerticalAlign">
+      <div class="tableVerticalAlign">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-12 centerMobile">
@@ -140,27 +148,62 @@
           <h1 class="upper50">Our Wonderful Team</h1>
           <img class="lower50" src="blackLine.png">
         </div>
-        <div class="row">
+        <div class="row lower100">
           <div class="col-md-3">
             <img src="teamMember.png">
-            George Sjöstedt
-            CEO / Founder
+            <h4>George Sjöstedt</h4>
+            <h5>CEO / Founder</h5>
 
-            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-            <img src="twitterIcon.png">
-            <img src="pinterestIcon.png">
-            <img src="facebookIcon.png">
-            <img src="gPlusIcon.png">
-            <img src="linkedIcon.png">
+            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+            <div class="socialIcons">
+              <img src="twitterIcon.png">
+              <img src="pinterestIcon.png">
+              <img src="facebookIcon.png">
+              <img src="gPlusIcon.png">
+              <img src="linkedIcon.png">
+            </div>
           </div>
           <div class="col-md-3">
             <img src="teamMember.png">
+            <h4>George Sjöstedt</h4>
+            <h5>CEO / Founder</h5>
+
+            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+            <div class="socialIcons">
+              <img src="twitterIcon.png">
+              <img src="pinterestIcon.png">
+              <img src="facebookIcon.png">
+              <img src="gPlusIcon.png">
+              <img src="linkedIcon.png">
+            </div>
           </div>
           <div class="col-md-3">
             <img src="teamMember.png">
+            <h4>George Sjöstedt</h4>
+            <h5>CEO / Founder</h5>
+
+            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+            <div class="socialIcons">
+              <img src="twitterIcon.png">
+              <img src="pinterestIcon.png">
+              <img src="facebookIcon.png">
+              <img src="gPlusIcon.png">
+              <img src="linkedIcon.png">
+            </div>
           </div>
           <div class="col-md-3">
             <img src="teamMember.png">
+            <h4>George Sjöstedt</h4>
+            <h5>CEO / Founder</h5>
+
+            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+            <div class="socialIcons">
+              <img src="twitterIcon.png">
+              <img src="pinterestIcon.png">
+              <img src="facebookIcon.png">
+              <img src="gPlusIcon.png">
+              <img src="linkedIcon.png">
+            </div>
           </div>
         </div>
       </div>
@@ -211,24 +254,29 @@
           <h1 class="upper50">Contact Us</h1>
           <img class="lower50" src="blackLine.png">
         </div>
-        <div class="row lower100">
+        <div class="row lower100 alignLeft">
           <div class="col-md-6">
             <form>
-              <input type="text" name="fname" placeholder="First name"><br>
-              <input type="text" name="lname" placeholder="Last name"><br>
-              <textarea class="form-control" rows="5" id="comment"></textarea>
+              <input type="text" name="fname" placeholder="Full Name"><br>
+              <input type="text" name="lname" placeholder="Email Address"><br>
+              <textarea placeholder="Message" rows="8" id="comment"></textarea>
             </form>
           </div>
           <div class="col-md-6">
-            Information
+            <h2>Information</h2>
             <p>Proin nec dignissim tellus, ut hendrerit erat. Vivamus ut augue ac est sagittis ullamcorper a porttitor nibh. Donec non tortor consequat, sollicitudin odio id, vehicula lorem. Suspendisse a euismod sem. Mauris rutrum arcu a lorem aliquet feugiat. Praesent tincidunt lacus at nisl pharetra, nec suscipit risus lobortis. Nunc vitae enim a quam ultrices faucibus. Proin sit amet condimentum libero, ac dignissim enim. Praesent aliquam lacinia dapibus.</p>
 
-            <img src="mapPin.png"></span>StreetName 163, 254 23 City<img src="arrow.png">
-            <img src="phone.png">(+254) 001 454 333 66
+            <p><img src="mapPin.png"></span>StreetName 163, 254 23 City</p><img src="arrow.png">
+            <p><img src="phone.png">(+254) 001 454 333 66</p>
             <a href="#" class="filledButton">SEND MESSAGE</a>
             <a href="#" class="borderButton redText">VIEW MAP</a>
           </div>
         </div>
+      </div>
+    </div>
+    <div id="footer" class="redCenter">
+      <div class="tableVerticalAlign">
+        <p>© Copyright 2013 By Projex - All rights Reserved!</p>
       </div>
     </div>
 
