@@ -29,6 +29,11 @@ body
 	margin-bottom: 130px;
 }
 
+.topPad68
+{
+	padding-top: 68px;
+}
+
 #heroBackground
 {
 	background-color: black;
@@ -146,6 +151,11 @@ img
 	background-color: transparent;
 }
 
+.redHover:hover
+{
+	color: #ff5959;
+}
+
 .redText
 {
 	color: #ff5959;
@@ -163,6 +173,11 @@ img
 	.centerMobile
 	{
 		text-align: center;
+	}
+
+	.medBotPad68
+	{
+		padding-bottom: 68px;
 	}
 }
 
