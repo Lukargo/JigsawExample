@@ -82,7 +82,8 @@ img
 {
 	/* A great TV show */
 	position: absolute;
-	margin-left: 150px;
+	margin-left: 220px;
+	margin-top: -25px;
 }
 
 .socialIcons
@@ -306,6 +307,11 @@ img
 	font-size: 13px;
 }
 
+.point
+{
+	cursor: pointer;
+}
+
 #contactArea input, textarea
 {
 	width: 100%;
@@ -339,9 +345,10 @@ img
 }
 
 #portfolio1:after {
-  content: " ";
+  content: "";
   background-image: url(img-here.png);
   background-position: center center;
+  filter: alpha(opacity=20);
   opacity: 1;
   top: 0;
   left: 0;
@@ -351,26 +358,7 @@ img
   z-index: 0;   
 }
 
-#portfolio1:hover
-{
-	
-}
-
 #portfolio1:hover:after {
-  content: "";
-  background-image: url(img-here.png);
-  background-position: center center;
-  opacity: 0.2;
-  filter: alpha(opacity=20);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 0;   
-}
-
-#portfolio1:after:hover {
   content: "";
   background-image: url(img-here.png);
   background-position: center center;
