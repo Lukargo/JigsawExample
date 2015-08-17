@@ -351,8 +351,27 @@ img
   z-index: 0;   
 }
 
+#portfolio1:hover
+{
+	
+}
+
 #portfolio1:hover:after {
-  content: " ";
+  content: "";
+  background-image: url(img-here.png);
+  background-position: center center;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio1:after:hover {
+  content: "";
   background-image: url(img-here.png);
   background-position: center center;
   opacity: 0.2;
