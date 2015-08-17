@@ -78,6 +78,13 @@ img
 	text-align: left;
 }
 
+#arrow
+{
+	/* A great TV show */
+	position: absolute;
+	margin-left: 150px;
+}
+
 .socialIcons
 {
 	padding-top: 
@@ -331,7 +338,7 @@ img
   position: relative;
 }
 
-#portfolio1::after {
+#portfolio1:after {
   content: " ";
   background-image: url(img-here.png);
   background-position: center center;
@@ -344,7 +351,7 @@ img
   z-index: 0;   
 }
 
-#portfolio1:hover::after {
+#portfolio1:hover:after {
   content: " ";
   background-image: url(img-here.png);
   background-position: center center;
