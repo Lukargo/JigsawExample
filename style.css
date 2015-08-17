@@ -145,6 +145,8 @@ img
 	display: inline-block;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 18px;
+	-webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
 }
 
 .borderButton
@@ -157,6 +159,8 @@ img
 	display: inline-block;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 18px;
+	-webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
 }
 
 .filledButton:hover
@@ -211,6 +215,8 @@ img
     padding: 10px 15px;
     border-radius: 10px;
     margin-top: 10px;
+    -webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease; 
 }
 
 .navbar-nav > li > a:hover
@@ -226,9 +232,9 @@ img
     padding-bottom: 10px;}
 }
 
-.navbar-default .navbar-brand
+.navbar-default .navbar-brand, .navbar-brand:hover
 {
-	color: white;
+	color: white !important;
 }
 
 .navbar-default .navbar-nav>li>a
@@ -267,6 +273,11 @@ img
 {
 	color: white !important;
 	background-color: #fc7d7d !important;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: white;
+  background-color: #fc7d7d;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -355,7 +366,9 @@ img
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0;   
+  z-index: 0; 
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;  
 }
 
 #portfolio1:hover:after {
@@ -379,7 +392,7 @@ img
   max-width: 100%;
   max-height: 278px;
   display: block;
-  position: relative;
+  position: relative; 
 }
 
 #portfolio2:after {
@@ -392,7 +405,9 @@ img
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0;   
+  z-index: 0;  
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;  
 }
 
 #portfolio2:hover::after {
@@ -428,7 +443,9 @@ img
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0;   
+  z-index: 0; 
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;   
 }
 
 #portfolio3:hover::after {
@@ -463,7 +480,9 @@ img
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0;   
+  z-index: 0;  
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;  
 }
 
 #portfolio4:hover::after {
@@ -499,6 +518,8 @@ img
   right: 0;
   position: absolute;
   z-index: 0;   
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; 
 }
 
 #portfolio5:hover::after {
@@ -533,7 +554,9 @@ img
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 0;   
+  z-index: 0;  
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;  
 }
 
 #portfolio6:hover::after {
@@ -548,21 +571,3 @@ img
   position: absolute;
   z-index: 0;   
 }
-
-
-/*#servicesArea
-{
-	text-align: center;
-	background-color: #e8e8e8;
-}
-
-#portfolioArea
-{
-	text-align: center;
-	background-color: #ff5959;
-}
-
-#teamArea
-{
-	background-color: #e8e8e8;
-}*/
