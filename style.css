@@ -1,6 +1,7 @@
 body
 {
 	font-family: 'Quicksand', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .wd70
@@ -86,6 +87,12 @@ img
 {
 	display: inline-block;
 	padding-right: 8px;
+	text-align: center;
+}
+
+.center
+{
+	text-align: center;
 }
 
 .navbar
@@ -300,6 +307,231 @@ img
 	padding: 10px;
 	margin-bottom: 10px;
 }
+
+.tableWrapper
+{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+#portfolioArea h3
+{
+	font-size: 24px;
+	font-weight: 700;
+}
+
+
+#portfolio1 {
+  width: 558px;
+  height: 278px;
+  max-width: 100%;
+  max-height: 278px;
+  display: block;
+  position: relative;
+}
+
+#portfolio1::after {
+  content: " ";
+  background-image: url(img-here.png);
+  background-position: center center;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio1:hover::after {
+  content: " ";
+  background-image: url(img-here.png);
+  background-position: center center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio2 {
+  width: 558px;
+  height: 278px;
+  max-width: 100%;
+  max-height: 278px;
+  display: block;
+  position: relative;
+}
+
+#portfolio2::after {
+  content: " ";
+  background-image: url(img-here1.png);
+  background-position: center center;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio2:hover::after {
+  content: " ";
+  background-image: url(img-here1.png);
+  background-position: center center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio3 {
+  width: 271px;
+  height: 286px;
+  max-width: 100%;
+  max-height: 286px;
+  display: block;
+  position: relative;
+}
+
+#portfolio3::after {
+  content: " ";
+  background-image: url(img-here2.png);
+  background-position: center center;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio3:hover::after {
+  content: " ";
+  background-image: url(img-here2.png);
+  background-position: center center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio4 {
+  width: 271px;
+  height: 286px;
+  max-width: 100%;
+  max-height: 286px;
+  display: block;
+  position: relative;
+}
+
+#portfolio4::after {
+  content: " ";
+  background-image: url(img-here3.png);
+  background-position: center center;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio4:hover::after {
+  content: " ";
+  background-image: url(img-here3.png);
+  background-position: center center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio5 {
+  width: 271px;
+  height: 286px;
+  max-width: 100%;
+  max-height: 286px;
+  display: block;
+  position: relative;
+}
+
+#portfolio5::after {
+  content: " ";
+  background-image: url(img-here4.png);
+  background-position: center center;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio5:hover::after {
+  content: " ";
+  background-image: url(img-here4.png);
+  background-position: center center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio6 {
+  width: 271px;
+  height: 286px;
+  max-width: 100%;
+  max-height: 286px;
+  display: block;
+  position: relative;
+}
+
+#portfolio6::after {
+  content: " ";
+  background-image: url(img-here6.png);
+  background-position: center center;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
+#portfolio6:hover::after {
+  content: " ";
+  background-image: url(img-here6.png);
+  background-position: center center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
+
 
 /*#servicesArea
 {
